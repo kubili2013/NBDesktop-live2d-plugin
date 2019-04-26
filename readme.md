@@ -73,11 +73,18 @@
 * 编辑`index.js`脚本文件，首先找到这句
 
 ```javascript
-let modelUrl= process.resourcesPath.replace(/resources$/, "").replace(/\\/g, "/") + "plugins/test/assets/kesyoban/kesyoban.model.json";
+let setting = {
+    name:"NBDesktop-live2d-plugin",
+    model:"22.2017.cba-normal"
+}
 ```
 
-然后将 `kesyoban/kesyoban` 换成你要更换的`live2d`的文件名，例如：
+然后将 `model` 换成你要更换的`live2d`的文件名，例如：
 
 ```javascript
-let modelUrl= process.resourcesPath.replace(/resources$/, "").replace(/\\/g, "/") + "plugins/test/assets/Bronya/Bronya.model.json";
+let setting = {
+    name:"NBDesktop-live2d-plugin",
+    model:"Bronya"
+}
 ```
+这个时候，程序会自动去`assets`文件夹中，找寻`Bronya` 下的 `Bronya.model.json`，注意两个名字必须保持规则一致 `*****` 和 `*****.model.json`。
