@@ -10,62 +10,7 @@
 
 * 下载本插件 `clone or download` --> `Download ZIP`
 * 解压到 `NB Desktop/plugins/` 文件夹下
-* 修改 `NB Desktop/plugins/setting.json` 文件,你看到的可能是这样的：
-```json
-
-{
-    "current": [
-        {
-            "type": "web",
-            "url": "https://bilibili.com"
-        }
-    ]
-}
-
-```
-修改成这样的：
-
-```json
-{
-    "current": [
-        {
-            "type": "web",
-            "url": "https://bilibili.com",
-            "plugins": [
-                {
-                    "name": "NBDesktop-live2d-plugin"
-                }
-            ]
-        }
-    ]
-}
-
-```
-
-如果你曾经添加过其他插件，那么需要复制一条 `{"name": "NBDesktop-live2d-plugi"}` 到`plugins` 下中括号里面，注意`‘,’`逗号间隔。
-
-```json
-{
-    "current": [
-        {
-            "type": "web",
-            "url": "https://bilibili.com",
-            "plugins": [
-                {
-                    "name": "other-plugin"
-                },
-                {
-                    "name": "NBDesktop-live2d-plugi"
-                }
-
-            ]
-        }
-    ]
-}
-
-```
-
-> 修改 `setting.json` 要谨慎，格式错误会导致软件运行失败。可以删了重新启动，`setting.json` 将会被重新建立
+* 重启 `NB Desktop`，个性设置，插件，勾选后便可立即启用
 
 ## 更换`live2d`模型
 
