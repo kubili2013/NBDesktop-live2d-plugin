@@ -1,6 +1,6 @@
 let setting = {
     name:"NBDesktop-live2d-plugin",
-    model:"22.2017.cba-normal"
+    model:"YuzukiYukari"
 }
 
 function dragFunc(id) {

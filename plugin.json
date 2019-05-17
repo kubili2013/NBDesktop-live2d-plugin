@@ -1,0 +1,10 @@
+{
+    "name":"Live 2D",
+    "desc":"Live 2D 插件，将动态二次元娘显示在桌面。",
+    "type":"desktop-widget",
+    "author":"kubili2013",
+    "main":"index.js",
+    "image":"logo.jpg",
+    "url":"",
+    "setting":{}
+}
