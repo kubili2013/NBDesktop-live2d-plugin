@@ -1,10 +1,14 @@
 {
-    "name":"Live 2D",
-    "desc":"Live 2D 插件，将动态二次元娘显示在桌面。",
-    "type":"desktop-widget",
-    "author":"kubili2013",
-    "main":"index.js",
-    "image":"logo.jpg",
-    "url":"",
-    "setting":{}
+    "name": "Live 2D",
+    "desc": "Live 2D 插件，将动态二次元娘显示在桌面。",
+    "type": "desktop-widget",
+    "author": "kubili2013",
+    "main": "index.js",
+    "setter": "plugin.js",
+    "image": "logo.jpg",
+    "url": "",
+    "setting": {
+        "model": "22.2017.summer.normal.2"
+    },
+    "path": "E:\\src\\node\\NBDesktop-win32-x64/plugins/NBDesktop-live2d-plugin/"
 }
