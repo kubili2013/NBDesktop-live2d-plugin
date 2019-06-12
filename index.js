@@ -43,7 +43,3 @@ let test_timer = setInterval(function(){
         clearInterval(test_timer)
     }
 },1000)
-
-
-
-

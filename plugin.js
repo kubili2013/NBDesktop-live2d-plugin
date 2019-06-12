@@ -34,7 +34,7 @@ function loadLive2DModules() {
 
 function settingLive2dModule(){
     live2d_config.setting.model =  $("#live2d-module-selector").val();
-    fs.writeFileSync(live2d_config.path + "plugin.json", JSON.stringify(live2d_config, null, 4));
+    fs.writeFileSync(live2d_plugin.path + "plugin.json", JSON.stringify(live2d_config, null, 4));
     // refresh
     ipcRenderer.send("reload-plugins");
     Plugin.startDesktopWidgetPlugin('Live 2D')
